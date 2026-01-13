@@ -2,7 +2,12 @@
   "name": "eip-vote-escrowed-gauge",
   "version": "1.0.0",
   "description": "Standard for vote-escrowed tokens and gauge-based emissions systems",
+  "author": "jose-blockchain",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "test": "hardhat test",
     "test:unit": "hardhat test test/unit/*.js",

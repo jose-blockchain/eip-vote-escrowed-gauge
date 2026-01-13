@@ -1,5 +1,10 @@
 # EIP Vote-Escrowed Gauge Standard
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Solidity](https://img.shields.io/badge/Solidity-0.8.20-blue)
+![Node](https://img.shields.io/badge/Node-%3E%3D18-green)
+![Hardhat](https://img.shields.io/badge/Hardhat-2.19-orange)
+
 A comprehensive implementation of the vote-escrowed gauge standard for directing emissions based on time-locked governance tokens.
 
 ## Overview
@@ -136,7 +141,6 @@ eip-vote-escrowed-gauge/
 │   ├── unit/                          # Unit tests
 │   │   ├── VotingEscrow.test.js
 │   │   ├── GaugeController.test.js
-│   │   ├── LiquidityGauge.test.js
 │   │   └── Minter.test.js
 │   └── integration/                   # Integration tests
 │       ├── EndToEnd.test.js

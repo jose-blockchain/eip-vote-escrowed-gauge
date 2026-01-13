@@ -1,0 +1,36 @@
+{
+  "name": "eip-vote-escrowed-gauge",
+  "version": "1.0.0",
+  "description": "Standard for vote-escrowed tokens and gauge-based emissions systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:unit": "hardhat test test/unit/*.js",
+    "test:integration": "hardhat test test/integration/*.js",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "ethereum",
+    "eip",
+    "vetoken",
+    "gauge",
+    "defi",
+    "curve"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "chai": "^4.3.10",
+    "hardhat": "^2.19.4",
+    "ethers": "^6.10.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
